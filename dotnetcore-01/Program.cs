@@ -12,6 +12,7 @@ namespace dotnetcore_01
             Application.Init();
 
             var w = new Window("gtk 01");
+            w.SetDefaultSize(900, 500);
             w.Show();
 
             w.DeleteEvent += W_DeleteEvent;
